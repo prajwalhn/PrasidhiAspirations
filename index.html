@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prasidhi Aspirations</title>
+    <title>Prasiddhi Aspirations</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="nav.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
   </head>
   <body>
     <nav>
-      <label class="logo">Prasidhi Aspirations</label>
+      <label class="logo">Prasiddhi Aspirations</label>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="pages\news.html">News</a></li>
@@ -63,6 +63,10 @@
             document.getElementById("minutes").innerHTML=minutes;
               document.getElementById("seconds").innerHTML=seconds;
 
+              if(d<=0){
+                clearInterval(x);
+              }
+
    },1000);
 
    </script>
@@ -71,5 +75,5 @@
 
   </body>
 
-  <footer><p>2019 &#169;Prasidhi Aspirations<br>All rights reserved</footer>
+  <footer><p>2019 &#169;Prasiddhi Aspirations<br>All rights reserved</footer>
 </html>
