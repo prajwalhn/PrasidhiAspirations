@@ -1,5 +1,10 @@
 body{
+  margin:0;
+  padding:0;
   background: url(background.jpg) no-repeat;
-  background-position: center;
-  background: cover;
+    background: cover;
+    background-position: center;
+    height: 100%;
+
+
 }
