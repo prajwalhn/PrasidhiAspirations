@@ -3,7 +3,7 @@
   list-style: none;
 }
 nav{
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.4);
   height: 70px;
   width:100%;
 }
@@ -15,7 +15,7 @@ label.logo{
 
   line-height: 70px;
   padding:0 100px;
-  font-weight:oblique;
+  font-weight:bold;
 }
 
 nav ul{
