@@ -3,13 +3,13 @@
   list-style: none;
 }
 nav{
-  background:rgba(0,0,0,0.4);
+  background:rgba(0,0,0,0.8);
   height: 70px;
   width:100%;
 }
 label.logo{
   color:white;
-  font-size: 30px;
+  font-size: 40px;
   font-style: italic;
   font-family: 'Slabo 27px', serif;
 
@@ -33,7 +33,8 @@ nav ul li{
 nav ul li a{
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
+  font-weight: bold;
   border-radius: 3px;
   text-transform: capitalize;
   padding: 7px 13px;
