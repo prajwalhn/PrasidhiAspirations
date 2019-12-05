@@ -52,13 +52,8 @@ body{
 
 footer{
    background: black;
-  margin-top:30%;
-  display: flex;
-  line-height: 2px;
-  padding: 0 700px;
 }
 footer p{
-  text-align:justify;
   color:white;
   font-size: 30px;
   font-weight: bold;
