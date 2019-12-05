@@ -7,7 +7,7 @@ body{
   background-attachment: fixed;
 }
 .box{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   width:1000px;
   height:800px;
   padding:50px;
@@ -51,11 +51,16 @@ body{
 
 
 footer{
-  background: rgba(0, 0, 0, 0.4);
-  text-align: center;
+   background: black;
+  margin-top:30%;
+  display: flex;
+  line-height: 2px;
+  padding: 0 700px;
 }
 footer p{
-
+  text-align:justify;
   color:white;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
+
 }
