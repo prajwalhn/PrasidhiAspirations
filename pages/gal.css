@@ -1,0 +1,33 @@
+/*Gallery*/
+body{
+  margin:0;
+  padding:0;
+  background: url(background.png) no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  background: cover;
+}
+.image-table{
+  max-width: 1400px;
+margin: auto;
+display:flex;
+text-align: center;
+justify-content: center;
+flex-wrap:wrap;
+margin-top: 2%;
+}
+
+.col{
+  flex:100%;
+  padding: 30px;
+  max-width: 1400px;
+  box-sizing: border-box;
+  max-height: 600px;
+}
+
+.table{
+  background: rgba(0,0,0,0);
+  padding:80px 10px;
+  position: relative;
+  overflow: hidden;
+}
