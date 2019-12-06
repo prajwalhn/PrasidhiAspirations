@@ -2,7 +2,7 @@
   nav{
     background:rgba(0,0,0,0.8);
     height: 70px;
-    width:520px;
+    width:360px;
   }
   label.logo{
     color:white;
@@ -15,7 +15,7 @@
     font-weight:bold;
   }
   nav ul{
-    float:left;
+    float:right;
     margin-right: 20px;
   }
   nav ul li{
@@ -29,7 +29,7 @@
   nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 3px;
     text-transform: capitalize;
