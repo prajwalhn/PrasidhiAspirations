@@ -1,11 +1,11 @@
 body{
   margin:0;
   padding:0;
-  background:rgba(0,0,0,0.9);
+  background:url(background.png);
   background-repeat: no-repeat;
     background: cover;
     background-position: center;
-    height: 100%;
+background-attachment: fixed;
 }
 .papoa{
   background: rgba(0, 0, 0, 0.5);
@@ -26,4 +26,52 @@ body{
 }
 .details{
   color:white;
+}
+.det-table{
+  max-width:1400px;
+  margin:auto;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.col{
+
+  flex:100%;
+  padding:20px;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+
+.table{
+  background: rgba(0, 0, 0, 0.5);
+  padding:80px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.table h2{
+  color:white;
+  font-style: italic;
+}
+
+.table h3{
+  color:#F8EFBA;
+  font-style: italic;
+}
+
+.table p{
+  color:white;
+
+}
+
+.new-up h1{
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+  font-style: italic;
+  font-size: 80px;
 }
