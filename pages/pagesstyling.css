@@ -19,13 +19,12 @@ background-attachment: fixed;
 }
 
 .details{
+  background: rgba(0, 0, 0, 0.5);
   color:white;
   font-size:30px;
   text-align: center;
 }
-.details{
-  color:white;
-}
+
 .det-table{
   max-width:1400px;
   margin:auto;
