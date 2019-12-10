@@ -1,4 +1,4 @@
-@media screen and (min-width:200px){
+@media screen and (min-width:300px){
 
   body{
     margin: 0;
@@ -10,22 +10,39 @@
   }
   .box{
     background: rgba(0, 0, 0, 0.8);
-    width:100%;
+    width:350px;
     height:800px;
     margin: 0 0 0 0;
     text-align: center;
     overflow-x:hidden;
 
   }
+  .whole-details{
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .contact p{
+    font-size: 30px;
+    color:white;
+    text-align:center;
+
+  }
+  .gmail p{
+    font-size: 10px;
+    color:#F8EFBA;
+    text-align: center;
+
+  }
+
+
 
 
   .box p{
-    font-size: 60px;
+    font-size: 50px;
     font-style: italic;
     color: white;
   }
   .box p1{
-    font-size: 50px;
+    font-size: 40px;
     font-style: italic;
     color: white;
   }
@@ -48,6 +65,7 @@
     font-size:20px;
     margin-top: 14px;
   }
+
 
   footer {
     background: rgba(0, 0, 0, 0.4);
@@ -74,7 +92,7 @@ body{
 .box{
   background: rgba(0, 0, 0, 0.8);
   width:1000px;
-  height:800px;
+  height:1500px;
   padding:50px;
 
   margin-left:auto;
@@ -82,14 +100,13 @@ body{
   margin-top: 3%;
   text-align: center;
 }
-
 .box p{
-  font-size: 70px;
+  font-size: 50px;
   font-style: italic;
   color: white;
 }
 .box p1{
-  font-size: 60px;
+  font-size: 40px;
   font-style: italic;
   color: white;
 }
@@ -112,8 +129,19 @@ body{
   font-size:26px;
   margin-top: 14px;
 }
+.contact p{
+  font-size: 30px;
+  color:white;
+  text-align:center;
 
-.
+}
+.gmail p{
+  font-size: 30px;
+  color:#F8EFBA;
+  text-align: center;
+
+}
+
 footer p{
   color:white;
   font-size: 20px;
