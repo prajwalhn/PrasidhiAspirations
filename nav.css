@@ -7,8 +7,8 @@
   label.logo{
     color:white;
     font-size: 30px;
-    font-style: italic;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Aclonica', sans-serif;
+
 
     line-height: 70px;
     margin-top: 8%;
@@ -22,7 +22,7 @@
     list-style: none;
     display:inline-block;
     line-height: 40px;
-    margin:1 5px;
+    margin:1px 5px;
     padding: 0px;
   }
 
@@ -52,8 +52,9 @@ nav{
 label.logo{
   color:white;
   font-size: 30px;
-  font-style: italic;
-  font-family: 'Mitr', sans-serif;
+
+  font-family: 'Aclonica', sans-serif;
+
 
   line-height: 70px;
   padding:0 100px;
@@ -68,14 +69,14 @@ nav ul li{
   list-style: none;
   display:inline-block;
   line-height: 40px;
-  margin:1 5px;
+  margin:1px 5px;
   padding: 0px;
 }
 
 nav ul li a{
   color: white;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: bold;
   border-radius: 3px;
   text-transform: capitalize;
