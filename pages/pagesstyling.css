@@ -6,8 +6,17 @@ body{
     background-position: center;
 background-attachment: fixed;
 }
+.Top-heading{
+  color: black;
+}
+.Top-heading h1{
+  text-align: center;
+  line-height: 2em;
+  font-style: italic;
+}
 .papoa{
-  background: rgba(0, 0, 0, 0.8);
+  background:rgba(0,0,0,0.1);
+
 }
 .papoa p{
  padding: 10px;
@@ -19,9 +28,10 @@ background-attachment: fixed;
 }
 
 .details{
-  background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.4);
   color:white;
   font-size:30px;
+  font-style: italic;
   text-align: center;
 }
 
