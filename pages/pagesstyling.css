@@ -84,6 +84,17 @@ background-attachment: fixed;
   font-style: italic;
   font-size: 80px;
 }
+.date{
+  margin-top: 3%;
+  border-bottom: 2px solid;
+}
+.box-news {
+ font-style: italic;
+  box-sizing: border-box;
+  font-size: 2em;
+  margin: 0 20% 0 20%;
+  text-align: left;
+}
 @media screen and (max-width:400px)
 {
   .details{
