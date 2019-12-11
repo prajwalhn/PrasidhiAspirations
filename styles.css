@@ -3,23 +3,16 @@
   body{
     margin: 0;
     padding: 0;
-   background:url(Images\background.jpg) no-repeat;
+background-color:white;
    background-size:cover;
    background-position: center;
    background-attachment: fixed;
   }
-  .box{
-    background: rgba(0, 0, 0, 0.8);
-    width:350px;
-    height:800px;
-    margin: 0 0 0 0;
-    text-align: center;
-    overflow-x:hidden;
 
-  }
   .whole-details{
-    margin-top: 50%;
-    background: rgba(0, 0, 0, 0.5);
+    height: 300px;;
+    margin-top: 10%;
+    background:black;
   }
   .contact p{
     font-size: 30px;
@@ -27,50 +20,13 @@
     text-align:center;
 
   }
-  .gmail p{
-    font-size: 10px;
-    color:#F8EFBA;
-    text-align: center;
-
-  }
 
 
-
-
-  .box p{
-    font-size: 50px;
-    font-style: italic;
-    color: white;
-  }
-  .box p1{
-    font-size: 40px;
-    font-style: italic;
-    color: white;
-  }
-
-  .count{
-    color: white;
-    margin:40px 0px;
-  }
-  .countd{
-    display:inline-block;
-    width:60px;
-    height:80px;
-    border:2px solid;
-    margin: 15px 30px;
-    font-size: 10px;
-    border-radius:50%;
-    }
-  .countd span{
-    display: block;
-    font-size:20px;
-    margin-top: 14px;
-  }
 
 
   footer {
-    background: rgba(0, 0, 0, 0.4);
-    color:white;
+
+    color:black;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -86,61 +42,20 @@
 body{
   margin: 0;
   padding: 0;
- background:url(Images\background.jpg) no-repeat;
+  background-color: white;
  background-position: center;
  background-attachment: fixed;
 }
-.box{
-  background: rgba(0, 0, 0, 0.8);
-  width:1000px;
-  height:1000px;
-  padding:50px;
 
-  margin-left:auto;
-  margin-right: auto;
-  margin-top: 3%;
-  text-align: center;
-}
-.box p{
-  font-size: 50px;
-  font-style: italic;
-  color: white;
-}
-.box p1{
-  font-size: 40px;
-  font-style: italic;
-  color: white;
-}
 
-.count{
-  color: white;
-  margin:40px 0px;
-}
-.countd{
-  display:inline-block;
-  width:80px;
-  height:80px;
-  border:2px solid;
-  margin: 0 30px;
-  font-size: 12px;
-  border-radius:50%;
-  }
-.countd span{
-  display: block;
-  font-size:26px;
-  margin-top: 14px;
-}
+
 
 .contact p{
+  padding:3em 2em;
+  font-style: italic;
   font-size: 30px;
   color:white;
   text-align:center;
-
-}
-.gmail p{
-  font-size: 30px;
-  color:#F8EFBA;
-  text-align: center;
 
 }
 
