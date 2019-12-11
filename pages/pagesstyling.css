@@ -7,6 +7,7 @@ background:white;
 background-attachment: fixed;
 }
 .Top-heading{
+  margin-top: 8%;
   border-bottom: 1px solid black;
   color: black;
 }
@@ -85,7 +86,7 @@ background-attachment: fixed;
   font-size: 80px;
 }
 .date{
-  margin-top: 3%;
+  margin-top: 12%;
   border-bottom: 2px solid;
 }
 .box-news {
