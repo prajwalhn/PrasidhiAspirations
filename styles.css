@@ -10,17 +10,26 @@ background-color:white;
   }
 
   .whole-details{
-    height: 300px;;
-    margin-top: 10%;
-    background:black;
+    box-sizing:content-box;
+    width:450px;
+    height: 200px;
+    margin-left: 32%;
+  align-items: center;
+
   }
+
+
   .contact p{
-    font-size: 30px;
-    color:white;
-    text-align:center;
+    font-size: 2rem;
+  box-sizing:content-box;
+  width:450px;
+  border:solid;
+  font-style: italic;
+  padding: 1px 2px;
+  text-align: center;
+  align-items: center;
 
   }
-
 
 
 
@@ -42,20 +51,29 @@ background-color:white;
 body{
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: ;
  background-position: center;
  background-attachment: fixed;
 }
+.whole-details{
+  box-sizing:content-box;
+  width:450px;
+  height: 200px;
+  margin-left: 32%;
+align-items: center;
 
-
+}
 
 
 .contact p{
-  padding:3em 2em;
-  font-style: italic;
-  font-size: 30px;
-  color:white;
-  text-align:center;
+  font-size: 2rem;
+box-sizing:content-box;
+width:450px;
+border:solid;
+font-style: italic;
+padding: 1px 2px;
+text-align: center;
+align-items: center;
 
 }
 
