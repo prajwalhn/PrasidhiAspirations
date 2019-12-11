@@ -23,7 +23,7 @@ background-attachment: fixed;
  padding: 10px;
   color:black;
   text-align: center;
-  font-size: 60px;
+  font-size: 1.5em;
   font-style: italic;
   margin-top: 5%;
 }
@@ -31,7 +31,7 @@ background-attachment: fixed;
 .details{
   margin-top: 10%;
   color:black;
-  font-size:30px;
+  font-size:1.5em;
   font-style: italic;
   text-align: center;
 }
