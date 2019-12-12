@@ -51,7 +51,9 @@
 body{
   margin: 0;
   padding: 0;
-  background: white;
+  background: #648880;
+  background: linear-gradient(to right, #f6f1d3,white 30%, #b8e994);
+
  background-position: center;
  background-attachment: fixed;
 }
