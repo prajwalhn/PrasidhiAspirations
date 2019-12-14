@@ -94,7 +94,7 @@ background-attachment: fixed;
  font-style: italic;
   box-sizing: border-box;
   font-size: 2em;
-  margin: 0 20% 0 20%;
+  margin: 6em 20% 0 20%;
   text-align: left;
 }
 @media screen and (max-width:400px)
