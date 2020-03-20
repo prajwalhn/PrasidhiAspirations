@@ -6,19 +6,44 @@
     <title>Prasiddhi Aspirations-Official Website</title>
     <link rel="stylesheet" href="pagesstyling.css">
     <link rel="stylesheet" href="nav.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <BODY oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-    <nav>
-      <label class="logo">Prasiddhi Aspirations</label>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="contact.html">about</a></li>
-        <li><a href="photos.html">Gallery</a></li>
-        <li><a href="news.html">News</a></li>
+      <nav class="navbar">
+          <span class="navbar-toggle" id="js-navbar-toggle">
+              <i class="fa fa-bars"></i>
+            </span>
 
-        </ul>
-        </nav>
+          <a href="http://theprajwalhaniya.com/" class="logo">Prasiddhi Aspirations</a>
+          <ul class="main-nav" id="js-menu">
+         <li>
+           <a href="/" class="nav-links">Home</a>
+         </li>
+
+         <li>
+           <a href="contact.html" class="nav-links">About</a>
+         </li>
+         <li>
+           <a href="photos.html" class="nav-links">Gallery</a>
+         </li>
+
+         <li>
+           <a href="news.html" class="nav-links">News</a>
+         </li>
+            </ul>
+
+            <script type="text/javascript">
+            let mainNav = document.getElementById('js-menu');
+             let navBarToggle = document.getElementById('js-navbar-toggle');
+
+            navBarToggle.addEventListener('click', function () {
+
+          mainNav.classList.toggle('active');
+      });
+            </script>
+          </nav>
 
     <div class="Top-heading">
       <h1>Prasiddhi Aspirations Plot Owners Associations Office Bearers</h1>
